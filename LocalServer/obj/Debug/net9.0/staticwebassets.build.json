@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "OzLt8sGuWC7j9RAp6wE/L5dV0oMguEjNHV9yvxx9DuA=",
+  "Source": "LocalServer",
+  "BasePath": "_content/LocalServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

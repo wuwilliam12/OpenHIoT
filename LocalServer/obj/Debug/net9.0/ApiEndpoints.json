@@ -1,0 +1,1195 @@
+[
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.DeviceController",
+    "Method": "Add",
+    "RelativePath": "api/Device/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ns",
+        "Type": "OpenHIoT.LocalServer.Data.Device",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OpenHIoT.LocalServer.Data.Device",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.DeviceController",
+    "Method": "GetAll",
+    "RelativePath": "api/Device/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[OpenHIoT.LocalServer.Data.Device, LocalServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.DeviceController",
+    "Method": "GetAllLive",
+    "RelativePath": "api/Device/AllLive",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[OpenHIoT.LocalServer.Data.Device, LocalServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.DeviceController",
+    "Method": "GetChildren",
+    "RelativePath": "api/Device/Children/{dev_id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dev_id",
+        "Type": "System.UInt32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[OpenHIoT.LocalServer.Data.Device, LocalServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.DeviceController",
+    "Method": "GetChildren",
+    "RelativePath": "api/Device/ChildrenN",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[OpenHIoT.LocalServer.Data.Device, LocalServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.DeviceController",
+    "Method": "ClearStatus",
+    "RelativePath": "api/Device/ClearStatus/{dev_id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dev_id",
+        "Type": "System.UInt64",
+        "IsRequired": true
+      },
+      {
+        "Name": "status",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.DeviceController",
+    "Method": "ClientValidate",
+    "RelativePath": "api/Device/ClientValidate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cv",
+        "Type": "OpenHIoT.LocalServer.Data.Auth",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.DeviceController",
+    "Method": "Get",
+    "RelativePath": "api/Device/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.UInt32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OpenHIoT.LocalServer.Data.Device",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.DeviceController",
+    "Method": "SetSampleVal",
+    "RelativePath": "api/Device/SampleVal",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sample",
+        "Type": "OpenHIoT.LocalServer.Services.SampleDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.DeviceController",
+    "Method": "SetStatus",
+    "RelativePath": "api/Device/SetStatus/{dev_id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dev_id",
+        "Type": "System.UInt64",
+        "IsRequired": true
+      },
+      {
+        "Name": "status",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.DeviceController",
+    "Method": "GetSetting",
+    "RelativePath": "api/Device/SettingGet",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "OpenHIoT.LocalServer.SettingDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.DeviceController",
+    "Method": "PostSetting",
+    "RelativePath": "api/Device/SettingPost",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "OpenHIoT.LocalServer.SettingDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.DeviceController",
+    "Method": "Update",
+    "RelativePath": "api/Device/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ns",
+        "Type": "OpenHIoT.LocalServer.Data.Device",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OpenHIoT.LocalServer.Data.Device",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.DeviceController",
+    "Method": "WriteChannelByIId",
+    "RelativePath": "api/Device/WriteChannel/{dev_id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dev_id",
+        "Type": "System.UInt64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.HeadRtController",
+    "Method": "Add",
+    "RelativePath": "api/HeadRt/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "h",
+        "Type": "OpenHIoT.LocalServer.Data.SampleDb.Rt.HeadRt",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.HeadRtController",
+    "Method": "GetAllLive",
+    "RelativePath": "api/HeadRt/AllLive",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[OpenHIoT.LocalServer.Data.SampleDb.Rt.HeadRt, LocalServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.HeadRtController",
+    "Method": "GetMHeadRtsOfDevice",
+    "RelativePath": "api/HeadRt/Dev/{dev_id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dev_id",
+        "Type": "System.UInt64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[OpenHIoT.LocalServer.Data.SampleDb.Rt.HeadRt, LocalServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.HeadRtController",
+    "Method": "Get",
+    "RelativePath": "api/HeadRt/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.UInt32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OpenHIoT.LocalServer.Data.SampleDb.Rt.HeadRt",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.HeadRtController",
+    "Method": "GetByAlias",
+    "RelativePath": "api/HeadRt/GetByAlias/{alias}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "alias",
+        "Type": "System.UInt64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OpenHIoT.LocalServer.Data.SampleDb.Rt.HeadRt",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.HeadRtController",
+    "Method": "GetByDev",
+    "RelativePath": "api/HeadRt/GetByIId/{dev_id}/{iid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dev_id",
+        "Type": "System.UInt64",
+        "IsRequired": true
+      },
+      {
+        "Name": "iid",
+        "Type": "System.Byte",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OpenHIoT.LocalServer.Data.SampleDb.Rt.HeadRt",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.HeadRtController",
+    "Method": "GetByDev",
+    "RelativePath": "api/HeadRt/GetByName/{dev_id}/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dev_id",
+        "Type": "System.UInt64",
+        "IsRequired": true
+      },
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OpenHIoT.LocalServer.Data.SampleDb.Rt.HeadRt",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.HeadRtController",
+    "Method": "GetByNs",
+    "RelativePath": "api/HeadRt/GetByNs/{ns_id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ns_id",
+        "Type": "System.UInt32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OpenHIoT.LocalServer.Data.SampleDb.Rt.HeadRt",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.HeadRtController",
+    "Method": "Update",
+    "RelativePath": "api/HeadRt/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "h",
+        "Type": "OpenHIoT.LocalServer.Data.SampleDb.Rt.HeadRt",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CollegeApp.Controllers.LoginController",
+    "Method": "Login",
+    "RelativePath": "api/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "OpenHIoT.LocalServer.Models.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.MqttMsgController",
+    "Method": "Add",
+    "RelativePath": "api/MqttMsg/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "m",
+        "Type": "OpenHIoT.LocalServer.Data.MqttMsg",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.MqttMsgController",
+    "Method": "Update",
+    "RelativePath": "api/MqttMsg/AddRange",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ms",
+        "Type": "System.Collections.Generic.List\u00601[[OpenHIoT.LocalServer.Data.MqttMsg, LocalServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.MqttMsgController",
+    "Method": "Backup",
+    "RelativePath": "api/MqttMsg/Backup",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.ProductController",
+    "Method": "GetAll",
+    "RelativePath": "api/Product/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[OpenHIoT.LocalServer.Data.Product, LocalServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.ProductController",
+    "Method": "Get",
+    "RelativePath": "api/Product/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.UInt32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OpenHIoT.LocalServer.Data.Product",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.ProductController",
+    "Method": "GetAllVendor",
+    "RelativePath": "api/Product/Vendors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[OpenHIoT.LocalServer.Data.Vendor, LocalServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.SampleRtController",
+    "Method": "GetSample",
+    "RelativePath": "api/SampleRt/Sample/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.UInt64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OpenHIoT.LocalServer.Services.SampleDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.SampleRtController",
+    "Method": "GetSampleByNs",
+    "RelativePath": "api/SampleRt/SampleByNs/{ns_id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ns_id",
+        "Type": "System.UInt32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OpenHIoT.LocalServer.Services.SampleDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.SampleRtController",
+    "Method": "GetSamples",
+    "RelativePath": "api/SampleRt/Samples/{ids}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OpenHIoT.LocalServer.Services.SampleDTOs",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.SampleRtController",
+    "Method": "GetDoublesByNs",
+    "RelativePath": "api/SampleRt/SamplesByNs/{ns_ids}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ns_ids",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OpenHIoT.LocalServer.Services.SampleDTOs",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.SampleRtController",
+    "Method": "GetDoublesTs",
+    "RelativePath": "api/SampleRt/SamplesFrom/{id}/{from_ts}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.UInt64",
+        "IsRequired": true
+      },
+      {
+        "Name": "from_ts",
+        "Type": "System.UInt64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OpenHIoT.LocalServer.Services.SampleDTOs",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.SampleRtController",
+    "Method": "GetBlobsTs",
+    "RelativePath": "api/SampleRt/SamplesFromByNs/{ns_id}/{from_ts}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ns_id",
+        "Type": "System.UInt32",
+        "IsRequired": true
+      },
+      {
+        "Name": "from_ts",
+        "Type": "System.UInt64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OpenHIoT.LocalServer.Services.SampleDTOs",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.SampleRtController",
+    "Method": "GetSamplesFromByNs",
+    "RelativePath": "api/SampleRt/SamplesFromByNsS/{ns_ids}/{from_ts}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ns_ids",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "from_ts",
+        "Type": "System.UInt64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OpenHIoT.LocalServer.Services.SampleDTOs",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.SampleRtController",
+    "Method": "GetSamplesFrom",
+    "RelativePath": "api/SampleRt/SamplesFromS/{ids}/{from_tss}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "from_tss",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OpenHIoT.LocalServer.Services.SampleDTOs",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.SyslogController",
+    "Method": "Add",
+    "RelativePath": "api/Syslog/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "item",
+        "Type": "OpenHIoT.LocalServer.Data.SyslogItem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.SyslogController",
+    "Method": "GetItemsFromId",
+    "RelativePath": "api/Syslog/GetItemsFromId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[OpenHIoT.LocalServer.Data.SyslogItem, LocalServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.UnifiedNameSpaceController",
+    "Method": "Add",
+    "RelativePath": "api/UnifiedNameSpace/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ns",
+        "Type": "OpenHIoT.LocalServer.Data.UnifiedNameSpace",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.UnifiedNameSpaceController",
+    "Method": "GetChildren",
+    "RelativePath": "api/UnifiedNameSpace/Children/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.UInt32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[OpenHIoT.LocalServer.Data.UnifiedNameSpace, LocalServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.UnifiedNameSpaceController",
+    "Method": "GetChildren",
+    "RelativePath": "api/UnifiedNameSpace/ChildrenN",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[OpenHIoT.LocalServer.Data.UnifiedNameSpace, LocalServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.UnifiedNameSpaceController",
+    "Method": "GetFullName",
+    "RelativePath": "api/UnifiedNameSpace/FullName/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.UInt32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String[]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.UnifiedNameSpaceController",
+    "Method": "GetById",
+    "RelativePath": "api/UnifiedNameSpace/GetById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.UInt32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OpenHIoT.LocalServer.Data.UnifiedNameSpace",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.UnifiedNameSpaceController",
+    "Method": "GetByParent",
+    "RelativePath": "api/UnifiedNameSpace/GetByParent/{name}/{parent}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "parent",
+        "Type": "System.UInt32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OpenHIoT.LocalServer.Data.UnifiedNameSpace",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.UnifiedNameSpaceController",
+    "Method": "GetByParent",
+    "RelativePath": "api/UnifiedNameSpace/GetByParentN/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OpenHIoT.LocalServer.Data.UnifiedNameSpace",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OpenHIoT.LocalServer.Controllers.UnifiedNameSpaceController",
+    "Method": "Update",
+    "RelativePath": "api/UnifiedNameSpace/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ns",
+        "Type": "OpenHIoT.LocalServer.Data.UnifiedNameSpace",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

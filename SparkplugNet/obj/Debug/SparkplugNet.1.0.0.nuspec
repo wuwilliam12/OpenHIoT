@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SparkplugNet</id>
+    <version>1.0.0</version>
+    <authors>SeppPenner</authors>
+    <description>SparkplugNet is a library to use the Sparkplug IIoT standard in .Net.</description>
+    <releaseNotes>Version 1.3.8.0 (2024-04-15): Removed invalid setting of TLS options, fixes https://github.com/SeppPenner/SparkplugNet/issues/94.</releaseNotes>
+    <copyright>Copyright © Hämmer Electronics</copyright>
+    <tags>c# csharp sparkplug mqtt</tags>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net9.0">
+        <dependency id="MQTTnet" version="4.3.6.1152" exclude="Build,Analyzers" />
+        <dependency id="MQTTnet.AspNetCore" version="4.3.6.1152" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Abstractions" version="8.0.1" exclude="Build,Analyzers" />
+        <dependency id="protobuf-net" version="3.2.30" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\projects\c#\OpenHIot\SparkplugNet\bin\Debug\net9.0\SparkplugNet.dll" target="lib\net9.0\SparkplugNet.dll" />
+  </files>
+</package>

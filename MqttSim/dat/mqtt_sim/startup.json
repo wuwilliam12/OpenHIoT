@@ -1,0 +1,19 @@
+{
+	"BrokerIp" : "localhost",
+	"BrokerPort" : 1884,
+	"Edges" : [
+	{	"User" : "user",
+		"Pw" : "password",
+		"SimId" : 1,
+		"Product" : "SensorTHa"
+	},
+	{	"SimId" : 2,
+		"Product" : "SensorTPa"
+	},]	
+}
+
+
+
+
+
+

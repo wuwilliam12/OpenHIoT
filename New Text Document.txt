@@ -1,0 +1,1 @@
+Get-ChildItem . * -recurse | ForEach-Object{$_.LastWriteTime = get-date}

@@ -1,0 +1,2 @@
+C:\tmp\cc\SparkplugNet\obj\Debug\net6.0\SparkplugNet.csproj.AssemblyReference.cache
+C:\tmp\cc\SparkplugNet\obj\Debug\net6.0\SparkplugNet.GeneratedMSBuildEditorConfig.editorconfig

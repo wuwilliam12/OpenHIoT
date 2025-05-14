@@ -1,0 +1,34 @@
+{
+	"Channels": [
+		{
+			"IId": 1,
+			"Name": "Direction",
+			"Properties": 5
+		},
+		{
+			"IId": 2,
+			"Name": "Distance",
+			"Properties": 5
+		}
+	],
+	"Services": [
+		{
+			"UUID": "1191",
+			"Characteristics": [
+				{
+					"UUID": "2B11",
+					//				"ProcessFunc": "TyProc",
+					"Properties": 4,
+					"ChIds": [ 1, 2 ]
+				},
+				{
+					"UUID": "2B10",
+					"ProcessFunc": "TyProc",
+					"Properties": 8,
+					"ChIds": [ 1, 2 ]
+				}
+			]
+
+		}
+	]
+}

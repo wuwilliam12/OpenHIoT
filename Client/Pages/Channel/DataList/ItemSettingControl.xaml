@@ -1,0 +1,53 @@
+﻿<UserControl x:Class="OpenHIoT.Client.Pages.Channel.DataList.ItemSettingControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:OpenHIoT.Client.Pages.Channel.DataList"
+             xmlns:live="clr-namespace:OpenHIoT.Client.Pages.Channel.Live"             
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="200">
+    <ScrollViewer>
+        <StackPanel >
+            <Expander Header="Data Source" >
+                <live:DataSourceCntl x:Name="dataSourceCntl" />            
+            </Expander>
+            <Expander Header="Display Setting" >
+
+            <StackPanel Orientation="Vertical">
+                <ComboBox x:Name="dispSettingCb" SelectionChanged="dispSettingCb_SelectionChanged"/>
+                <CheckBox Content="Display Curve" FlowDirection="RightToLeft" HorizontalAlignment="Center" IsChecked="{Binding ShowCurve}"
+                              x:Name="dispCurveCb" Checked="dispCurveCb_Checked" Unchecked="dispCurveCb_Unchecked"
+                              Margin="5"/>
+                <Border x:Name="curveBd">
+                    <Grid Margin="2">
+                        <Label Content="Width"/>
+                        <TextBox Text="{Binding CurveSetting.Samples, Mode=TwoWay}" Width="50" Height="25" 
+                                     Margin="50,0,0,30" HorizontalAlignment="Left" />
+                        <Label Content="Scale" Margin="5,30,0,0"/>
+                        <TextBox Text="{Binding CurveSetting.ScaleTop, Mode=TwoWay}" Width="50" Height="25"
+                                     Margin="50,30,30,0" HorizontalAlignment="Left" />
+                        <TextBox Text="{Binding CurveSetting.ScaleBot, Mode=TwoWay}" Width="50" Height="25" 
+                                     Margin="110,30,30,0"/>
+                    </Grid>
+                </Border>
+                <Label Content="Color Zones" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" Background="Azure" Margin="2" />
+                <ScrollViewer  VerticalScrollBarVisibility="Auto">
+                    <local:ColorSegmentsCntl x:Name="segsCntl" Margin="2" MinHeight="70"/>
+                </ScrollViewer>
+            </StackPanel>
+        </Expander>
+            <Grid>
+                <Button x:Name="okBtn"  Height="30" HorizontalAlignment="Right" VerticalAlignment="Bottom"
+                         Click="okBtn_Click" Margin="10" BorderThickness="0" Background="Transparent">
+                    <Image Source="/Client;component/Images/ok.png" />
+                </Button>            
+                <Button x:Name="cancelBtn" BorderThickness="0"  Height="30" HorizontalAlignment="Left" VerticalAlignment="Bottom"
+                         Click="cancelBtn_Click"  Margin="10" >
+                    <Image Source="/Client;component/Images/cancel.png" />
+                </Button>                   
+            </Grid>   
+        </StackPanel>
+    </ScrollViewer>  
+
+</UserControl>

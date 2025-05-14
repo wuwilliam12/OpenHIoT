@@ -1,0 +1,77 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows10.0.19041.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <RootNamespace>OpenHIoT.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+    <UseWindowsForms>True</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Pages\Login\**" />
+    <EmbeddedResource Remove="Pages\Login\**" />
+    <None Remove="Pages\Login\**" />
+    <Page Remove="Pages\Login\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="ClientEdge.cs" />
+    <Compile Remove="ClientEdge.MsgHm.cs" />
+    <Compile Remove="ClientEdge.MsgSp.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Images\add_new.png" />
+    <None Remove="Images\cancel.png" />
+    <None Remove="Images\chart.png" />
+    <None Remove="Images\delete.png" />
+    <None Remove="Images\devices.png" />
+    <None Remove="Images\ok.png" />
+    <None Remove="Images\refresh.png" />
+    <None Remove="Images\setting.png" />
+    <None Remove="Images\UNS.jpg" />
+    <None Remove="Images\user.jpg" />
+    <None Remove="Pages\Channel\Live\Channel.Itemcs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Pages\Channel\ChannelItem.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Extended.Wpf.Toolkit" Version="4.7.25104.5739" />
+    <PackageReference Include="MQTTnet" Version="4.3.6.1152" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\delete.png" />
+    <Resource Include="Images\refresh.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\add_new.png" />
+    <Resource Include="Images\cancel.png" />
+    <Resource Include="Images\chart.png" />
+    <Resource Include="Images\devices.png" />
+    <Resource Include="Images\ok.png" />
+    <Resource Include="Images\setting.png" />
+    <Resource Include="Images\UNS.jpg" />
+    <Resource Include="Images\user.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BleEdge\BleEdge.csproj" />
+    <ProjectReference Include="..\CenterServer\CenterServer.csproj" />
+    <ProjectReference Include="..\LocalServer\LocalServer.csproj" />
+    <ProjectReference Include="..\SparkplugNet\SparkplugNet.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Pages\NSpace\" />
+  </ItemGroup>
+
+</Project>

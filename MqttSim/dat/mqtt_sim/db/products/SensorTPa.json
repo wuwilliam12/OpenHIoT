@@ -1,0 +1,27 @@
+{
+	"Channels": [
+		{
+			"IId": 1,
+			"Name": "Temperature",
+			"UOM": "F",
+			"Property": 5,
+			"Val" : "70"
+		},
+		{
+			"IId": 2,
+			"Name": "Pressure",
+			"UOM": "psi",
+			"Property": 5,
+			"Val": "10"
+		},
+		{
+			"IId": 3,
+			"DType": 5,  
+			"Name": "Switch",
+			"Property": 7,
+			"Options": "Off:On",
+			"Val": "1"
+		}
+	],
+
+}

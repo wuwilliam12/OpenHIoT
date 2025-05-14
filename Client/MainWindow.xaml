@@ -1,0 +1,53 @@
+﻿<Window x:Class="OpenHIoT.Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OpenHIoT.Client"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="139*"/>
+            <RowDefinition Height="295*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Orientation="Vertical" Grid.Column="0" Background="WhiteSmoke" Grid.RowSpan="2" >
+            <Button Height="40" HorizontalAlignment="Left" Background="WhiteSmoke" BorderThickness="0">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Client;component/Images/user.jpg" />
+                    <Label Padding="10" FontSize="14"  VerticalContentAlignment="Center" Width="64">User</Label>
+                </StackPanel>
+            </Button>
+            <Button Height="40" HorizontalAlignment="Left" Background="WhiteSmoke" BorderThickness="0">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Client;component/Images/UNS.jpg" Width="40"  />
+                    <Label Padding="10"   VerticalContentAlignment="Center" Width="60" >UNS</Label>
+                </StackPanel>
+            </Button>
+            <Button Height="40" HorizontalAlignment="Left" Background="WhiteSmoke" BorderThickness="0" Click="displayBtn_Click">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Client;component/Images/chart.png"  />
+                    <Label VerticalContentAlignment="Center" Width="65">Display</Label>
+                </StackPanel>
+            </Button>
+            <Button Height="40" HorizontalAlignment="Left" FontSize="14" Background="WhiteSmoke" BorderThickness="0" Click="devicesBtn_Click">
+                <StackPanel Orientation="Horizontal" Height="40">
+                    <Image Source="/Client;component/Images/devices.png" />
+                    <Label Padding="10" FontSize="14"  VerticalContentAlignment="Center" Width="60" >Device</Label>
+                </StackPanel>
+            </Button>
+
+
+        </StackPanel>
+        <Frame  Grid.Column="1" x:Name="mainFrame" Grid.RowSpan="2"/>
+        <GridSplitter  Grid.Column="2" Width="5"  HorizontalAlignment="Center" Grid.RowSpan="2"/>
+        <local:SysLogCntl x:Name="sysLog" Grid.Column="3" Grid.RowSpan="2" />
+
+    </Grid>
+</Window>

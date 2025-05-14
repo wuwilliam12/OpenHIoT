@@ -1,0 +1,9 @@
+[
+  {
+    "Name": "",
+    "Size": "400, 400",
+    "DType": 1,
+    "RefreshInterval": 0,
+    "Context": "{\"Items\":[{\"Channel\":{\"Alias\":132610,\"Name1\":\"Pressure\"},\"Segments\":[{\"From\":9.0,\"To\":11.0,\"Color\":\"#FF000000\",\"Brush\":\"#FF000000\"}],\"UOM\":\"(psi)\",\"CurveSetting\":{\"Samples\":100,\"ScaleTop\":9.0,\"ScaleBot\":11.0}},{\"Channel\":{\"Alias\":67074,\"Name1\":\"Humidity\"},\"Segments\":[],\"CurveSetting\":{\"Samples\":100,\"ScaleTop\":0.0,\"ScaleBot\":0.0}},{\"Channel\":{\"Alias\":132611,\"Name1\":\"Switch\",\"Property\":7},\"Options\":\"Off:On\",\"Segments\":[],\"CurveSetting\":{\"Samples\":0,\"ScaleTop\":0.0,\"ScaleBot\":0.0}},{\"Channel\":{\"Alias\":67075,\"Name1\":\"Color\",\"Property\":7},\"Options\":\"Red:Wellow:Green\",\"Segments\":[],\"CurveSetting\":{\"Samples\":0,\"ScaleTop\":0.0,\"ScaleBot\":0.0}},{\"Channel\":{\"Alias\":5270357405597565441,\"Name1\":\"Temperature\",\"Property\":5},\"Segments\":[],\"CurveSetting\":{\"Samples\":0,\"ScaleTop\":0.0,\"ScaleBot\":0.0}}]}"
+  }
+]

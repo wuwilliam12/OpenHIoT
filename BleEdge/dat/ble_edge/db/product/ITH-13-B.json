@@ -1,0 +1,29 @@
+{
+	"Channels": [
+		{
+			"IId": 1,
+			"Name": "Temperature",
+			"UOM": "C",
+			"Property": 5
+		},
+		{
+			"IId": 2,
+			"Name": "Humidity",
+			"UOM": "%",
+			"Property": 5
+		}
+	],
+	"Services": [
+		{
+			"UUID": "FFF0",
+			"Characteristics": [
+				{
+					"UUID": "FFF6",
+					"ProcessFunc": "Ith13BProc",
+					"Property": 18,
+					"ChIds": [ 1, 2 ]
+				}
+			]
+		}
+	]
+}

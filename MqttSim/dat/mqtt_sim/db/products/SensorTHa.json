@@ -1,0 +1,26 @@
+{
+	"Channels": [
+		{
+			"IId": 1,
+			"Name": "Temperature",
+			"UOM": "F",
+			"Property": 5,
+			"Val": "70"
+		},
+		{
+			"IId": 2,
+			"Name": "Humidity",
+			"UOM": "%",
+			"Property": 5,
+			"Val": "40"
+		},
+		{
+			"IId": 3,
+			"DType": 5,
+			"Name": "Color",
+			"Property": 7,
+			"Options": "Red:Wellow:Green",
+			"Val": "1"
+		}
+	],
+}

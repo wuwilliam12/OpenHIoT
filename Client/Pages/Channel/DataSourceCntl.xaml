@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="OpenHIoT.Client.Pages.Channel.Live.DataSourceCntl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:OpenHIoT.Client.Pages.Channel.Live"
+             xmlns:display="clr-namespace:OpenHIoT.Client.Pages.Channel"
+             mc:Ignorable="d" 
+             d:DesignHeight="250" d:DesignWidth="300">
+    <StackPanel x:Name="mainSt" Orientation="Vertical">
+        <display:DeviceSelectCntl x:Name="devSelCntl" DeviceSelected="devSelCntl_DeviceSelected" Margin="2" />
+        <ComboBox x:Name="mCb" SelectionChanged="mCb_SelectionChanged" Margin="2"/>
+        <TextBlock Text="{Binding Name2}" Margin="2" />
+    </StackPanel>
+</UserControl>

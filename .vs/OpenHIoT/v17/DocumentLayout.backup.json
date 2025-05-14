@@ -1,0 +1,751 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\projects\\c#\\OpenHIot\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{459E39F9-5035-4889-8FF3-9D9915894AB7}|BleEdge\\BleEdge.csproj|c:\\projects\\c#\\openhiot\\bleedge\\ble\\pluginble\\adpaterpi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{459E39F9-5035-4889-8FF3-9D9915894AB7}|BleEdge\\BleEdge.csproj|solutionrelative:bleedge\\ble\\pluginble\\adpaterpi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E54C1846-4A8D-40E4-BF05-43B0A56206F9}|MqttSim\\MqttSim.csproj|c:\\projects\\c#\\openhiot\\mqttsim\\devices\\sensortha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E54C1846-4A8D-40E4-BF05-43B0A56206F9}|MqttSim\\MqttSim.csproj|solutionrelative:mqttsim\\devices\\sensortha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E54C1846-4A8D-40E4-BF05-43B0A56206F9}|MqttSim\\MqttSim.csproj|c:\\projects\\c#\\openhiot\\mqttsim\\devices\\sensortpa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E54C1846-4A8D-40E4-BF05-43B0A56206F9}|MqttSim\\MqttSim.csproj|solutionrelative:mqttsim\\devices\\sensortpa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F14EF1E-9E92-4563-ADA9-D443632A8AB6}|LocalServer\\LocalServer.csproj|c:\\projects\\c#\\openhiot\\localserver\\hiotmsg\\hmpayload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F14EF1E-9E92-4563-ADA9-D443632A8AB6}|LocalServer\\LocalServer.csproj|solutionrelative:localserver\\hiotmsg\\hmpayload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F14EF1E-9E92-4563-ADA9-D443632A8AB6}|LocalServer\\LocalServer.csproj|c:\\projects\\c#\\openhiot\\localserver\\hiotmsg\\hmtopic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F14EF1E-9E92-4563-ADA9-D443632A8AB6}|LocalServer\\LocalServer.csproj|solutionrelative:localserver\\hiotmsg\\hmtopic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F14EF1E-9E92-4563-ADA9-D443632A8AB6}|LocalServer\\LocalServer.csproj|c:\\projects\\c#\\openhiot\\localserver\\services\\mqttservice.msghm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F14EF1E-9E92-4563-ADA9-D443632A8AB6}|LocalServer\\LocalServer.csproj|solutionrelative:localserver\\services\\mqttservice.msghm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27BE8AF0-C478-4A5A-80F0-54AF1DF3E4BF}|SparkplugNet\\SparkplugNet.csproj|c:\\projects\\c#\\openhiot\\sparkplugnet\\versionb\\data\\payload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27BE8AF0-C478-4A5A-80F0-54AF1DF3E4BF}|SparkplugNet\\SparkplugNet.csproj|solutionrelative:sparkplugnet\\versionb\\data\\payload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E54C1846-4A8D-40E4-BF05-43B0A56206F9}|MqttSim\\MqttSim.csproj|c:\\projects\\c#\\openhiot\\mqttsim\\mqttsim.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E54C1846-4A8D-40E4-BF05-43B0A56206F9}|MqttSim\\MqttSim.csproj|solutionrelative:mqttsim\\mqttsim.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F14EF1E-9E92-4563-ADA9-D443632A8AB6}|LocalServer\\LocalServer.csproj|c:\\projects\\c#\\openhiot\\localserver\\data\\repository\\devicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F14EF1E-9E92-4563-ADA9-D443632A8AB6}|LocalServer\\LocalServer.csproj|solutionrelative:localserver\\data\\repository\\devicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F14EF1E-9E92-4563-ADA9-D443632A8AB6}|LocalServer\\LocalServer.csproj|c:\\projects\\c#\\openhiot\\localserver\\data\\repository\\headarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F14EF1E-9E92-4563-ADA9-D443632A8AB6}|LocalServer\\LocalServer.csproj|solutionrelative:localserver\\data\\repository\\headarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F14EF1E-9E92-4563-ADA9-D443632A8AB6}|LocalServer\\LocalServer.csproj|c:\\projects\\c#\\openhiot\\localserver\\data\\datacontent\\localdbcontent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F14EF1E-9E92-4563-ADA9-D443632A8AB6}|LocalServer\\LocalServer.csproj|solutionrelative:localserver\\data\\datacontent\\localdbcontent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F14EF1E-9E92-4563-ADA9-D443632A8AB6}|LocalServer\\LocalServer.csproj|c:\\projects\\c#\\openhiot\\localserver\\data\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F14EF1E-9E92-4563-ADA9-D443632A8AB6}|LocalServer\\LocalServer.csproj|solutionrelative:localserver\\data\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F14EF1E-9E92-4563-ADA9-D443632A8AB6}|LocalServer\\LocalServer.csproj|c:\\projects\\c#\\openhiot\\localserver\\controllers\\samplertcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F14EF1E-9E92-4563-ADA9-D443632A8AB6}|LocalServer\\LocalServer.csproj|solutionrelative:localserver\\controllers\\samplertcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F14EF1E-9E92-4563-ADA9-D443632A8AB6}|LocalServer\\LocalServer.csproj|c:\\projects\\c#\\openhiot\\localserver\\controllers\\devicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F14EF1E-9E92-4563-ADA9-D443632A8AB6}|LocalServer\\LocalServer.csproj|solutionrelative:localserver\\controllers\\devicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459E39F9-5035-4889-8FF3-9D9915894AB7}|BleEdge\\BleEdge.csproj|c:\\projects\\c#\\openhiot\\bleedge\\ble\\pluginble\\characteristicpi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{459E39F9-5035-4889-8FF3-9D9915894AB7}|BleEdge\\BleEdge.csproj|solutionrelative:bleedge\\ble\\pluginble\\characteristicpi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E54C1846-4A8D-40E4-BF05-43B0A56206F9}|MqttSim\\MqttSim.csproj|c:\\projects\\c#\\openhiot\\mqttsim\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E54C1846-4A8D-40E4-BF05-43B0A56206F9}|MqttSim\\MqttSim.csproj|solutionrelative:mqttsim\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A7A26AD-C565-4F72-81A6-7CC0A71DE8C9}|Client\\Client.csproj|c:\\projects\\c#\\openhiot\\client\\requests\\oauthclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A7A26AD-C565-4F72-81A6-7CC0A71DE8C9}|Client\\Client.csproj|solutionrelative:client\\requests\\oauthclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\c#\\OpenHIoT\\MqttServer\\Models\\Edge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MqttServer\\Models\\Edge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\c#\\OpenDMS\\MqttServerGrpc\\Services\\MqttService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\c#\\OpenHIoT\\MqttServer\\Models\\Product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MqttServer\\Models\\Product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\c#\\OpenHIoT\\MqttServer\\Models\\UnifiedNameSpace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MqttServer\\Models\\UnifiedNameSpace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\c#\\OpenHIoT\\MqttServer\\Models\\Device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MqttServer\\Models\\Device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\c#\\OpenHIoT\\MQTTBroker\\MqttBroker.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MQTTBroker\\MqttBroker.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\c#\\OpenHIoT\\MqttBroker\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MqttBroker\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\c#\\OpenHIoT\\MqttServer\\Services\\MqttAppB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MqttServer\\Services\\MqttAppB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\c#\\OpenHIoT\\MqttServer\\Services\\MqttService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MqttServer\\Services\\MqttService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\c#\\OpenHIoT\\MqttServer\\Controllers\\MqttMsgController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MqttServer\\Controllers\\MqttMsgController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\c#\\OpenHIoT\\MqttServer\\MqttServer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MqttServer\\MqttServer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\c#\\OpenHIoT\\MqttServer\\Models\\ClientItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MqttServer\\Models\\ClientItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\c#\\OpenHIoT\\MqttBroker\\ValidateRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MqttBroker\\ValidateRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\c#\\OpenHIoT\\MQTTBroker\\MqttBroker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MQTTBroker\\MqttBroker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\c#\\OpenHIoT\\MqttServer\\Models\\MqttMsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MqttServer\\Models\\MqttMsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\c#\\OpenHIoT\\MqttServer\\Repositories\\MqttMsgRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MqttServer\\Repositories\\MqttMsgRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\c#\\OpenHIoT\\MqttServer\\Repositories\\TopicENameRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MqttServer\\Repositories\\TopicENameRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\c#\\OpenHIoT\\MqttServer\\DataContent\\MqttMsgAContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MqttServer\\DataContent\\MqttMsgAContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\c#\\OpenHIoT\\MqttServer\\Models\\TopicEName.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MqttServer\\Models\\TopicEName.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\c#\\OpenHIoT\\MqttServer\\Models\\SqliteDbSeq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MqttServer\\Models\\SqliteDbSeq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\c#\\OpenHIoT\\MqttServer\\Services\\ClientComponenetIds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MqttServer\\Services\\ClientComponenetIds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\c#\\OpenHIoT\\MqttServer\\Repositories\\ClientItemRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MqttServer\\Repositories\\ClientItemRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\c#\\OpenHIoT\\MqttServer\\DataContent\\MqttMsgBContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MqttServer\\DataContent\\MqttMsgBContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\c#\\OpenHIoT\\MqttServer\\DataContent\\MqttContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MqttServer\\DataContent\\MqttContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\c#\\OpenHIoT\\MqttServer\\MqttServer.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MqttServer\\MqttServer.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1765,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Payload.cs",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenHIot\\SparkplugNet\\VersionB\\Data\\Payload.cs",
+              "RelativeDocumentMoniker": "SparkplugNet\\VersionB\\Data\\Payload.cs",
+              "ToolTip": "C:\\projects\\c#\\OpenHIot\\SparkplugNet\\VersionB\\Data\\Payload.cs",
+              "RelativeToolTip": "SparkplugNet\\VersionB\\Data\\Payload.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T22:51:28.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DeviceRepository.cs",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenHIot\\LocalServer\\Data\\Repository\\DeviceRepository.cs",
+              "RelativeDocumentMoniker": "LocalServer\\Data\\Repository\\DeviceRepository.cs",
+              "ToolTip": "C:\\projects\\c#\\OpenHIot\\LocalServer\\Data\\Repository\\DeviceRepository.cs",
+              "RelativeToolTip": "LocalServer\\Data\\Repository\\DeviceRepository.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAgwHkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T22:45:17.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HeadArRepository.cs",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenHIot\\LocalServer\\Data\\Repository\\HeadArRepository.cs",
+              "RelativeDocumentMoniker": "LocalServer\\Data\\Repository\\HeadArRepository.cs",
+              "ToolTip": "C:\\projects\\c#\\OpenHIot\\LocalServer\\Data\\Repository\\HeadArRepository.cs",
+              "RelativeToolTip": "LocalServer\\Data\\Repository\\HeadArRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T22:45:16.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LocalDbContent.cs",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenHIot\\LocalServer\\Data\\DataContent\\LocalDbContent.cs",
+              "RelativeDocumentMoniker": "LocalServer\\Data\\DataContent\\LocalDbContent.cs",
+              "ToolTip": "C:\\projects\\c#\\OpenHIot\\LocalServer\\Data\\DataContent\\LocalDbContent.cs",
+              "RelativeToolTip": "LocalServer\\Data\\DataContent\\LocalDbContent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T22:44:16.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Device.cs",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenHIot\\LocalServer\\Data\\Device.cs",
+              "RelativeDocumentMoniker": "LocalServer\\Data\\Device.cs",
+              "ToolTip": "C:\\projects\\c#\\OpenHIot\\LocalServer\\Data\\Device.cs",
+              "RelativeToolTip": "LocalServer\\Data\\Device.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T22:42:32.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SampleRtController.cs",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenHIot\\LocalServer\\Controllers\\SampleRtController.cs",
+              "RelativeDocumentMoniker": "LocalServer\\Controllers\\SampleRtController.cs",
+              "ToolTip": "C:\\projects\\c#\\OpenHIot\\LocalServer\\Controllers\\SampleRtController.cs",
+              "RelativeToolTip": "LocalServer\\Controllers\\SampleRtController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T22:42:00.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdpaterPI.cs",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenHIot\\BleEdge\\BLE\\PluginBle\\AdpaterPI.cs",
+              "RelativeDocumentMoniker": "BleEdge\\BLE\\PluginBle\\AdpaterPI.cs",
+              "ToolTip": "C:\\projects\\c#\\OpenHIot\\BleEdge\\BLE\\PluginBle\\AdpaterPI.cs",
+              "RelativeToolTip": "BleEdge\\BLE\\PluginBle\\AdpaterPI.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAqwFYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T22:17:31.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MqttService.MsgHm.cs",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenHIot\\LocalServer\\Services\\MqttService.MsgHm.cs",
+              "RelativeDocumentMoniker": "LocalServer\\Services\\MqttService.MsgHm.cs",
+              "ToolTip": "C:\\projects\\c#\\OpenHIot\\LocalServer\\Services\\MqttService.MsgHm.cs",
+              "RelativeToolTip": "LocalServer\\Services\\MqttService.MsgHm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T22:52:16.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HmTopic.cs",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenHIot\\LocalServer\\HiotMsg\\HmTopic.cs",
+              "RelativeDocumentMoniker": "LocalServer\\HiotMsg\\HmTopic.cs",
+              "ToolTip": "C:\\projects\\c#\\OpenHIot\\LocalServer\\HiotMsg\\HmTopic.cs",
+              "RelativeToolTip": "LocalServer\\HiotMsg\\HmTopic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T22:52:40.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HmPayload.cs",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenHIot\\LocalServer\\HiotMsg\\HmPayload.cs",
+              "RelativeDocumentMoniker": "LocalServer\\HiotMsg\\HmPayload.cs",
+              "ToolTip": "C:\\projects\\c#\\OpenHIot\\LocalServer\\HiotMsg\\HmPayload.cs",
+              "RelativeToolTip": "LocalServer\\HiotMsg\\HmPayload.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T22:52:46.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SensorTHa.cs",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenHIot\\MqttSim\\Devices\\SensorTHa.cs",
+              "RelativeDocumentMoniker": "MqttSim\\Devices\\SensorTHa.cs",
+              "ToolTip": "C:\\projects\\c#\\OpenHIot\\MqttSim\\Devices\\SensorTHa.cs",
+              "RelativeToolTip": "MqttSim\\Devices\\SensorTHa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T22:59:03.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SensorTPa.cs",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenHIot\\MqttSim\\Devices\\SensorTPa.cs",
+              "RelativeDocumentMoniker": "MqttSim\\Devices\\SensorTPa.cs",
+              "ToolTip": "C:\\projects\\c#\\OpenHIot\\MqttSim\\Devices\\SensorTPa.cs",
+              "RelativeToolTip": "MqttSim\\Devices\\SensorTPa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T22:59:15.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DeviceController.cs",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenHIot\\LocalServer\\Controllers\\DeviceController.cs",
+              "RelativeDocumentMoniker": "LocalServer\\Controllers\\DeviceController.cs",
+              "ToolTip": "C:\\projects\\c#\\OpenHIot\\LocalServer\\Controllers\\DeviceController.cs",
+              "RelativeToolTip": "LocalServer\\Controllers\\DeviceController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwC4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T22:38:58.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CharacteristicPI.cs",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenHIot\\BleEdge\\BLE\\PluginBle\\CharacteristicPI.cs",
+              "RelativeDocumentMoniker": "BleEdge\\BLE\\PluginBle\\CharacteristicPI.cs",
+              "ToolTip": "C:\\projects\\c#\\OpenHIot\\BleEdge\\BLE\\PluginBle\\CharacteristicPI.cs",
+              "RelativeToolTip": "BleEdge\\BLE\\PluginBle\\CharacteristicPI.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T22:17:24.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MqttSim",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenHIot\\MqttSim\\MqttSim.csproj",
+              "RelativeDocumentMoniker": "MqttSim\\MqttSim.csproj",
+              "ToolTip": "C:\\projects\\c#\\OpenHIot\\MqttSim\\MqttSim.csproj",
+              "RelativeToolTip": "MqttSim\\MqttSim.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-06T22:06:27.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenHIot\\MqttSim\\Product.cs",
+              "RelativeDocumentMoniker": "MqttSim\\Product.cs",
+              "ToolTip": "C:\\projects\\c#\\OpenHIot\\MqttSim\\Product.cs",
+              "RelativeToolTip": "MqttSim\\Product.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwCwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T21:46:31.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OAuthClient.cs",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenHIot\\Client\\Requests\\OAuthClient.cs",
+              "RelativeDocumentMoniker": "Client\\Requests\\OAuthClient.cs",
+              "ToolTip": "C:\\projects\\c#\\OpenHIot\\Client\\Requests\\OAuthClient.cs",
+              "RelativeToolTip": "Client\\Requests\\OAuthClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAWwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T21:46:04.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Edge.cs",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenHIot\\MqttServer\\Models\\Edge.cs",
+              "RelativeDocumentMoniker": "MqttServer\\Models\\Edge.cs",
+              "ToolTip": "C:\\projects\\c#\\OpenHIot\\MqttServer\\Models\\Edge.cs",
+              "RelativeToolTip": "MqttServer\\Models\\Edge.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T23:06:07.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenHIot\\MqttServer\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "MqttServer\\Models\\Product.cs",
+              "ToolTip": "C:\\projects\\c#\\OpenHIot\\MqttServer\\Models\\Product.cs",
+              "RelativeToolTip": "MqttServer\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T23:03:54.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UnifiedNameSpace.cs",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenHIot\\MqttServer\\Models\\UnifiedNameSpace.cs",
+              "RelativeDocumentMoniker": "MqttServer\\Models\\UnifiedNameSpace.cs",
+              "ToolTip": "C:\\projects\\c#\\OpenHIot\\MqttServer\\Models\\UnifiedNameSpace.cs",
+              "RelativeToolTip": "MqttServer\\Models\\UnifiedNameSpace.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T22:53:10.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Device.cs",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenHIot\\MqttServer\\Models\\Device.cs",
+              "RelativeDocumentMoniker": "MqttServer\\Models\\Device.cs",
+              "ToolTip": "C:\\projects\\c#\\OpenHIot\\MqttServer\\Models\\Device.cs",
+              "RelativeToolTip": "MqttServer\\Models\\Device.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T19:16:47.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MqttBroker.csproj",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenHIot\\MQTTBroker\\MqttBroker.csproj",
+              "RelativeDocumentMoniker": "MQTTBroker\\MqttBroker.csproj",
+              "ToolTip": "C:\\projects\\c#\\OpenHIot\\MQTTBroker\\MqttBroker.csproj",
+              "RelativeToolTip": "MQTTBroker\\MqttBroker.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-20T04:39:23.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenHIot\\MQTTBroker\\Program.cs",
+              "RelativeDocumentMoniker": "MQTTBroker\\Program.cs",
+              "ToolTip": "C:\\projects\\c#\\OpenHIot\\MQTTBroker\\Program.cs",
+              "RelativeToolTip": "MQTTBroker\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T23:11:47.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MqttService.cs",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenDMS\\MqttServerGrpc\\Services\\MqttService.cs",
+              "RelativeDocumentMoniker": "..\\OpenDMS\\MqttServerGrpc\\Services\\MqttService.cs",
+              "ToolTip": "C:\\projects\\c#\\OpenDMS\\MqttServerGrpc\\Services\\MqttService.cs",
+              "RelativeToolTip": "..\\OpenDMS\\MqttServerGrpc\\Services\\MqttService.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAHIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T01:52:44.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MqttAppB.cs",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenHIot\\MqttServer\\Services\\MqttAppB.cs",
+              "RelativeDocumentMoniker": "MqttServer\\Services\\MqttAppB.cs",
+              "ToolTip": "C:\\projects\\c#\\OpenHIot\\MqttServer\\Services\\MqttAppB.cs",
+              "RelativeToolTip": "MqttServer\\Services\\MqttAppB.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAQwBUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T13:50:47.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MqttService.cs",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenHIot\\MqttServer\\Services\\MqttService.cs",
+              "RelativeDocumentMoniker": "MqttServer\\Services\\MqttService.cs",
+              "ToolTip": "C:\\projects\\c#\\OpenHIot\\MqttServer\\Services\\MqttService.cs",
+              "RelativeToolTip": "MqttServer\\Services\\MqttService.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAQwCwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T19:26:17.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MqttMsgController.cs",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenHIot\\MqttServer\\Controllers\\MqttMsgController.cs",
+              "RelativeDocumentMoniker": "MqttServer\\Controllers\\MqttMsgController.cs",
+              "ToolTip": "C:\\projects\\c#\\OpenHIot\\MqttServer\\Controllers\\MqttMsgController.cs",
+              "RelativeToolTip": "MqttServer\\Controllers\\MqttMsgController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAywBsAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T19:28:32.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MqttServer.csproj",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenHIot\\MqttServer\\MqttServer.csproj",
+              "RelativeDocumentMoniker": "MqttServer\\MqttServer.csproj",
+              "ToolTip": "C:\\projects\\c#\\OpenHIot\\MqttServer\\MqttServer.csproj",
+              "RelativeToolTip": "MqttServer\\MqttServer.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-18T16:11:19.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ClientItem.cs",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenHIot\\MqttServer\\Models\\ClientItem.cs",
+              "RelativeDocumentMoniker": "MqttServer\\Models\\ClientItem.cs",
+              "ToolTip": "C:\\projects\\c#\\OpenHIot\\MqttServer\\Models\\ClientItem.cs",
+              "RelativeToolTip": "MqttServer\\Models\\ClientItem.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAA5wBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T19:16:45.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ValidateRequest.cs",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenHIot\\MQTTBroker\\ValidateRequest.cs",
+              "RelativeDocumentMoniker": "MQTTBroker\\ValidateRequest.cs",
+              "ToolTip": "C:\\projects\\c#\\OpenHIot\\MQTTBroker\\ValidateRequest.cs",
+              "RelativeToolTip": "MQTTBroker\\ValidateRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T02:21:04.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "MqttBroker.csproj",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenHIot\\MQTTBroker\\MqttBroker.csproj",
+              "RelativeDocumentMoniker": "MQTTBroker\\MqttBroker.csproj",
+              "ToolTip": "C:\\projects\\c#\\OpenHIot\\MQTTBroker\\MqttBroker.csproj",
+              "RelativeToolTip": "MQTTBroker\\MqttBroker.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-18T14:33:38.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "MqttMsg.cs",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenHIot\\MqttServer\\Models\\MqttMsg.cs",
+              "RelativeDocumentMoniker": "MqttServer\\Models\\MqttMsg.cs",
+              "ToolTip": "C:\\projects\\c#\\OpenHIot\\MqttServer\\Models\\MqttMsg.cs",
+              "RelativeToolTip": "MqttServer\\Models\\MqttMsg.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAuwCAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T22:32:17.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "MqttMsgRepository.cs",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenHIot\\MqttServer\\Repositories\\MqttMsgRepository.cs",
+              "RelativeDocumentMoniker": "MqttServer\\Repositories\\MqttMsgRepository.cs",
+              "ToolTip": "C:\\projects\\c#\\OpenHIot\\MqttServer\\Repositories\\MqttMsgRepository.cs",
+              "RelativeToolTip": "MqttServer\\Repositories\\MqttMsgRepository.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAiwFcAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T23:45:48.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "TopicENameRepository.cs",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenHIot\\MqttServer\\Repositories\\TopicENameRepository.cs",
+              "RelativeDocumentMoniker": "MqttServer\\Repositories\\TopicENameRepository.cs",
+              "ToolTip": "C:\\projects\\c#\\OpenHIot\\MqttServer\\Repositories\\TopicENameRepository.cs",
+              "RelativeToolTip": "MqttServer\\Repositories\\TopicENameRepository.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAAAD0AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T23:48:34.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "MqttMsgAContext.cs",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenHIot\\MqttServer\\DataContent\\MqttMsgAContext.cs",
+              "RelativeDocumentMoniker": "MqttServer\\DataContent\\MqttMsgAContext.cs",
+              "ToolTip": "C:\\projects\\c#\\OpenHIot\\MqttServer\\DataContent\\MqttMsgAContext.cs",
+              "RelativeToolTip": "MqttServer\\DataContent\\MqttMsgAContext.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAIBJwBQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T23:51:15.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "TopicEName.cs",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenHIot\\MqttServer\\Models\\TopicEName.cs",
+              "RelativeDocumentMoniker": "MqttServer\\Models\\TopicEName.cs",
+              "ToolTip": "C:\\projects\\c#\\OpenHIot\\MqttServer\\Models\\TopicEName.cs",
+              "RelativeToolTip": "MqttServer\\Models\\TopicEName.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T00:18:53.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "SqliteDbSeq.cs",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenHIot\\MqttServer\\Models\\SqliteDbSeq.cs",
+              "RelativeDocumentMoniker": "MqttServer\\Models\\SqliteDbSeq.cs",
+              "ToolTip": "C:\\projects\\c#\\OpenHIot\\MqttServer\\Models\\SqliteDbSeq.cs",
+              "RelativeToolTip": "MqttServer\\Models\\SqliteDbSeq.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCEAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T00:42:33.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ClientComponenetIds.cs",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenHIot\\MqttServer\\Services\\ClientComponenetIds.cs",
+              "RelativeDocumentMoniker": "MqttServer\\Services\\ClientComponenetIds.cs",
+              "ToolTip": "C:\\projects\\c#\\OpenHIot\\MqttServer\\Services\\ClientComponenetIds.cs",
+              "RelativeToolTip": "MqttServer\\Services\\ClientComponenetIds.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T19:26:13.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ClientItemRepository.cs",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenHIot\\MqttServer\\Repositories\\ClientItemRepository.cs",
+              "RelativeDocumentMoniker": "MqttServer\\Repositories\\ClientItemRepository.cs",
+              "ToolTip": "C:\\projects\\c#\\OpenHIot\\MqttServer\\Repositories\\ClientItemRepository.cs",
+              "RelativeToolTip": "MqttServer\\Repositories\\ClientItemRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T19:25:53.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "MqttMsgBContext.cs",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenHIot\\MqttServer\\DataContent\\MqttMsgBContext.cs",
+              "RelativeDocumentMoniker": "MqttServer\\DataContent\\MqttMsgBContext.cs",
+              "ToolTip": "C:\\projects\\c#\\OpenHIot\\MqttServer\\DataContent\\MqttMsgBContext.cs",
+              "RelativeToolTip": "MqttServer\\DataContent\\MqttMsgBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAxwB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T23:51:31.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "MqttContext.cs",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenHIot\\MqttServer\\DataContent\\MqttContext.cs",
+              "RelativeDocumentMoniker": "MqttServer\\DataContent\\MqttContext.cs",
+              "ToolTip": "C:\\projects\\c#\\OpenHIot\\MqttServer\\DataContent\\MqttContext.cs",
+              "RelativeToolTip": "MqttServer\\DataContent\\MqttContext.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA3wBMAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T19:25:42.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Microsoft.NET.TargetFrameworkInference.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "RelativeToolTip": "..\\..\\..\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-05-18T16:12:49.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "MqttServer.csproj",
+              "DocumentMoniker": "C:\\projects\\c#\\OpenHIot\\MqttServer\\MqttServer.csproj",
+              "RelativeDocumentMoniker": "MqttServer\\MqttServer.csproj",
+              "ToolTip": "C:\\projects\\c#\\OpenHIot\\MqttServer\\MqttServer.csproj",
+              "RelativeToolTip": "MqttServer\\MqttServer.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-18T16:10:43.933Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
